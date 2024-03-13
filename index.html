@@ -3,59 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Natalie Clinton's Portfolio - Home</title>
 </head>
 
 <body>
-    <!-- NAV BAR -->
-    <nav> 
-        <header> :Natalie Clinton:</header>
-        <p>Home</p>
-        <p>About Me</p>
-        <p>My Works</p>
-        <p>Contact Me</p>
-    </nav>
+    <!-- HEADER -->
+    <header class="header">
+        
+        
+            <nav> 
+                <p>: Natalie Clinton :</p>
+                <ul>
+                     <li><a href="#Home">Home</a></li>
+                
+                     <li><a href="#About-Me">About Me</a></li>
+                
+                     <li><a href="#My-Works">My Works</a></li>
+                
+                     <li><a href="#Contact-Me">Contact Me</a></li>
+                </ul>
+            </nav>
+    </header>
 
     <!-- HOME -->
-    <main>
-        <p>Hi there, I'm</p>
+    <main id="Home" class=".home">
+        <br>
+        <h3>Hi there, I'm</h3>
         <h1>Natalie Clinton</h1>
-        <p>Project Coordinator / Administrator / AP / Coding Student</p>
+        <h3>Project Coordinator / Administrator / AP / Coding Student</h3>
         <img src="./assets/images/Bitmoj Laptop Wave.png" alt="A bitmoji of Natalie Clinton who's waving through a laptop">
+        <br>
     </main>
 
     <!-- ABOUT ME -->
-    <article>
+    <article id="About-Me" class=".about">
         <h2>About Me</h2>
         <p>I am a full stack coding student of University of Toronto and EdX, who’s excited to start my journey with development! Experienced Project Coordinator and Administrator with a demonstrated history of working in the architecture & planning industry.  In my personal life, I enjoy hosting and networking as I love bringing people together. I also thoroughly enjoy creative projects such as jewelry making and drawing to keep myself busy during my downtime.</p>
+    <br>
     </article>
 
     <!-- MY WORKS -->
-    <article>
+    <article id="My-Works" class=".row">
         <h2>My Works</h2>
-        <a href="https://natalieclinton.github.io/Assignment1/">
-            <img src="./assets/images/Horiseon SS.png" alt="Screenshot of Horiseon Webpage" srcset=""></a>
-        <a href="HORISEON"></a>
-        <a href="HORISEON"></a>
-        <a href="HORISEON"></a>
-    </article>
+  
+            <a href="https://natalieclinton.github.io/Assignment1/">
+                <img src="./assets/images/Horiseon SS.png" alt="Screenshot of Horiseon Webpage"></a>
+ 
+
+            <a href="https://salivanlandscape.com/">
+                <img src="./assets/images/Salivan SS.png" alt="Screenshot of Salivan Landscape's Webpage"></a>
+       
+            <a href="https://www.graysls.ca/">
+                <img src="./assets/images/Grays SS.png" alt="Screenshot of Gray's Landscaping Webpage"></a>
+     
+      
+            <a href="https://philthyphillys.com/">
+            <img src="./assets/images/Philthys SS.png" alt="Screenshot of Philthy Philly's Webpage"></a>
+
+        <br>
+        </article>
 
     <!-- CONTACT ME -->
-    <article>
+    <article id="Contact-Me" class=".contact">
         <h2>Contact Me</h2>
-        <p>Cell 416-898-7821</p>
-        <a href="tel:416-898-7821">416-898-7821</a>
-        <a href="mailto:natalie.clinton@hotmail.com">Email</a>
-        <a href="https://github.com/NatalieClinton">Github</a>
-        <a href="https://www.linkedin.com/in/natalie-clinton-892b42152/">LinkedIn</a>
-        <a href="https://open.spotify.com/user/12184865736">Spotify</a>
+        <li><a href="tel:416-898-7821">416-898-7821</a></li>
+        <li><a href="mailto:natalie.clinton@hotmail.com">Email</a></li>
+        <li><a href="https://github.com/NatalieClinton">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/natalie-clinton-892b42152/">LinkedIn</a></li>
+        <li><a href="https://open.spotify.com/user/12184865736">Spotify</a></li>
+        <br>
     </article>
 
 </body>
 
     <!-- FOOTER -->
-<footer>
+<footer class="footer">
     <p>✨ Made with HTML and CSS ✨</p>
 </footer>
 
