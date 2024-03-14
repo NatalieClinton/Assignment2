@@ -2,6 +2,7 @@
     --green: #838d5f ;
     --dark-blue: #484F60 ;
     --blue: #628295 ;
+    --white:#ffffff;
 }
     
 * {
@@ -30,10 +31,11 @@
 
 .navbar ul li {
     margin-right: 10px;
+    color: var(--white)
 }
     
 .navbar ul li a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
     
