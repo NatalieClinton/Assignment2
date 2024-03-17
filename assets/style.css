@@ -105,7 +105,7 @@ article img {
 @media screen and (max-width: 992px) {
    
     h1 {
-        font-size: 300%;
+        font-size: 325%;
     }
             
     h2, h3 {
@@ -126,8 +126,8 @@ article img {
         height: 275px;
         z-index: 1;
         position: absolute;
-        top: 70px;
-        left: 450px;
+        top: 90px;
+        left: 550px;
     }
         
     .header {
@@ -168,37 +168,39 @@ article img {
         
     .contact ul li a {
         color: var(--blue);
-        font-size: 100%;
+        font-size: 125%;
     }
-    }
-@media screen and (max-width: 992px) {
+}
+
+
+@media screen and (max-width: 768px) {
    
     h1 {
-        font-size: 250%;
+        font-size: 200%; 
     }
-            
+                
     h2, h3 {
         font-size: 100%;
     }
-            
+                
     p {
         font-size: 75%;
     }
-    
+        
     main a {
-        width: 50px;
+        width: 75px;
         height: auto;
     }
-    
+        
     figure img {
         width: 225px;
         height: 225px;
         z-index: 1;
         position: absolute;
-        top: 75px;
+        top: 60px;
         left: 450px;
     }
-        
+            
     .header {
         padding: 10px;
         background-color: var(--green);
@@ -208,105 +210,34 @@ article img {
         justify-content: flex-start;
         align-items: center;
     }
-    
+        
     .header ul {
         list-style-type: none;
         display: flex;  
         margin: 0;
         padding: 0;
         text-align: left;
-        font-size: 50%;
+        font-size: 75%;
     }
-        
+            
     .header ul li a {
         margin-left: 10px;
         color: var(--off-white);
         text-decoration: none;
-        font-size: 50%;
+        font-size: 75%;
     }
-    
-     
+        
     .download-button img {
         width: 100px; 
         height: auto; 
     }
-    
+        
     main, article {
         border-bottom: 2px solid gray;
     }
-        
+            
     .contact ul li a {
         color: var(--blue);
         font-size: 100%;
     }
-    }
-
-    @media screen and (max-width: 768px) {
-   
-        h1 {
-            font-size: 200%; 
-        }
-                
-        h2, h3 {
-            font-size: 100%;
-        }
-                
-        p {
-            font-size: 75%;
-        }
-        
-        main a {
-            width: 75px;
-            height: auto;
-        }
-        
-        figure img {
-            width: 250px;
-            height: 250px;
-            z-index: 1;
-            position: absolute;
-            top: 80px;
-            left: 450px;
-        }
-            
-        .header {
-            padding: 10px;
-            background-color: var(--green);
-            margin-left: -10px;
-            margin-right: -10px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-        }
-        
-        .header ul {
-            list-style-type: none;
-            display: flex;  
-            margin: 0;
-            padding: 0;
-            text-align: left;
-            font-size: 75%;
-        }
-            
-        .header ul li a {
-            margin-left: 10px;
-            color: var(--off-white);
-            text-decoration: none;
-            font-size: 75%;
-        }
-        
-         
-        .download-button img {
-            width: 125px; 
-            height: auto; 
-        }
-        
-        main, article {
-            border-bottom: 2px solid gray;
-        }
-            
-        .contact ul li a {
-            color: var(--blue);
-            font-size: 125%;
-        }
-        }
+}
